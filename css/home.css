@@ -1,0 +1,1123 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+#container{
+	/*margin: 0 auto;*/
+	width:100%;
+}
+#header{
+	background: white;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 5;
+	margin-top: -89px;
+	
+	
+
+}
+
+#log{
+	float: left;
+	
+}
+
+#log img{
+	margin-left: 353px;
+	margin-top: 25px;
+	
+}
+#app {
+	width: 102px;
+	line-height: 20px;
+	background: #e6c322;
+	text-align: center;
+	float: left;
+	margin-left: 15px;
+	margin-top: 34px;
+}
+#app a{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+
+}
+#headerNav{
+	float: left;
+	margin-left: 124px;
+	margin-top: 30px;
+}
+#headerNav ul{
+	list-style: none;
+	
+}
+#headerNav ul li{
+	float: left;
+}
+#headerNav a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#333333 ;
+	margin-left: 61px;
+}
+#headerNav a:hover{
+	color: #e9ce45;
+}
+#homeEnter{
+/*	border: 1px solid black;*/
+	width: 75px;
+	
+	float: left;
+	margin-left: 123px;
+	margin-top: 26px;
+	text-align: center;
+	line-height: 37px;
+	
+}
+#homeEnter a{
+	
+	font-size: 20px;
+	text-decoration: none;
+	color:#c6c6c6 ;
+}
+#homeEnter:hover{
+	background: #E6C322;
+}
+#homeEnroll{
+	/*border: 1px solid black;*/
+	width: 75px;
+	
+	float: left;
+	margin-left: 26px;
+	margin-top: 26px;
+	text-align: center;
+	line-height: 37px;
+	
+}
+#homeEnroll a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#c6c6c6 ;
+}
+#homeEnroll:hover{
+	background: #E6C322;
+}
+
+#main{
+	
+	width: 100%;
+	clear: both;
+	position: relative;
+	
+	
+}
+
+#homeMainSearch{
+	border: 1px solid gainsboro;
+	height: 250px;
+	width: 1120px;
+	
+	background: white;
+	position: absolute;
+
+top: 534px;
+left: 398px;	
+
+z-index: 42;
+box-shadow: 4px 4px 9px #555555;
+	
+}
+#mainSearchBox{
+	width: 1010px;
+	
+	margin: 0 auto;
+	text-align: center;
+}
+#mainSearchText {
+	margin-top: 42px;
+}
+#mainSearchText a{
+	font-size: 24px;
+	font-weight: 700;
+	
+}
+#phone span{
+	background: url(../img/tupian/1_03.png)no-repeat;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+	margin-top: 19px;
+}
+#phone a{
+	font-size: 14px;
+	font-weight: 900;
+	color: #857f81;
+	
+}
+form{
+	position: relative;
+	margin-top: 13px;
+}
+#bigBox{
+	/*border: 3px solid #b9b9ba;*/
+	border-radius: 5px;
+	width: 622px;
+	line-height: 43px;
+	background: #f4f4f4;
+	margin-top: 13px;
+	box-shadow: 3px 4px 2px #b9b9ba,-3px -4px 2px #b9b9ba;
+	
+}
+#bigBox input{
+	color: #cccccc;
+	font-size: 12px;
+	width: 572px;
+	border: 0px;
+	outline: medium;
+	background:#f4f4f4;
+}
+#yuSuan{
+	/*border: 3px solid #b9b9ba;*/
+	border-radius: 5px;
+	width: 220px;
+	line-height: 43px;
+	background: #f4f4f4;
+	margin-top: 13px;
+	position: absolute;
+	right: 138px;
+	bottom: 1px;
+	box-shadow: 3px 4px 2px #b9b9ba,-3px -4px 2px #b9b9ba;
+}
+#yuSuan a{
+	color: #cccccc;
+}
+#yuSuan a:hover{
+	color:white;
+}
+#yuSuan:hover{
+	background: #e6c322;
+	color: white;
+}
+#assess{
+	/*border: 3px solid #e6c322;*/
+	border-radius: 5px;
+	width: 160px;
+	line-height: 43px;
+	/*background: #e6c322;*/
+	margin-top: 13px;
+	position: absolute;
+	right: -39px;
+	bottom: 1px;
+	box-shadow: 3px 4px 2px #b9b9ba,-3px -4px 2px #b9b9ba;
+}
+#assess a{
+	color: #cccccc;
+}
+#assess:hover{
+	background: #e6c322;
+	
+}
+#assess a:hover{
+	color: white;
+}
+#firm{
+	text-align: center;
+	
+}
+#firm a{
+	display: inline-block;
+	margin-top: 14px;
+	
+}
+#title{
+display: inline-block;
+position: relative;
+	bottom: 20px;
+	font-size: 30px;
+	color:#edd470;
+	font-weight: 700;
+	text-shadow: 5px 5px 5px #FF0000;
+
+}
+#mainIntroduce{
+	clear: both;
+	background: gainsboro;
+	width: 100%;
+	height: 300px;
+	margin-top: 200px;
+}
+#homeMade{
+	
+	widows: 100%;
+	height: 400px;
+	margin-top: 200px;
+	margin-left: 510px;
+}
+
+.made{
+	border: 1px solid white;
+	float: left;
+	width: 180px;
+	height: 217px;
+	background: white;
+	margin-left: 100px;
+	margin-top: -100px;
+	transition: all 1s;
+	
+}
+ .made:hover{
+	transform: translate(0,-40px);
+}
+.madeIteam{
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	margin-top: 57px;
+}
+
+#madeOne{
+	 
+	background: url(../img/tupian/1_07.png)no-repeat;
+	
+	width: 63px;
+	height: 70px;
+}
+.madeIt{
+	font-size: 20px;
+	font-weight: 700;
+	color: #7b75ae;
+	width: 170px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 11px;
+}
+.madeIl{
+	border: 1px solid #7b75ae;
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 18px;
+	transition: all background-image;s
+}
+ .made:hover .madeIl{
+	width: 150px;
+}
+
+
+#madeTwo{
+	background: url(../img/tupian/1_16.png)no-repeat;
+	width: 63px;
+	height: 70px;
+}
+#madeThree{
+	background: url(../img/tupian/1_13.png)no-repeat;
+	width: 63px;
+	height: 70px;
+}
+#madeFour{
+	background: url(../img/tupian/1_10.png)no-repeat;
+	width: 63px;
+	height: 70px;
+}
+#mainTeam{
+	/**/
+	width: 100%;
+	/*height: 800px;*/
+/*text-align: center;*/
+}
+#mainTeamText{
+	text-align: center;
+}
+#mainTeamText a{
+	display: inline-block;
+	font-size: 30px;
+	color: #e6c61e;
+	font-weight: 700;
+	margin-top: 143px;
+	text-shadow:  5px 5px 5px #FF0000;
+	
+}
+#mainTeamText span{
+display: block;
+margin-top: 64px;
+color: #676767;
+font-size: 20px;
+}
+#mainTeamModel{
+	width: 100%;
+	height: 240px;
+}
+#mainTeamModel img{
+	
+	
+	width: 100%;
+	height: 240px;
+	margin-top: 60px;
+}
+
+#mainYuan{
+	background: url(../img/tupian/back11.jpg)no-repeat;
+	width: 868px;
+	height: 688px;
+	position: relative;
+	float: left;
+	margin-left:389px;
+	margin-top: 85px;
+}
+#mainYuanContent{
+	width: 748px;
+	height: 186px;
+ position: absolute;
+	top: 312px;
+	left: 295px;
+}
+#mainYuanContent img{
+	width:50px;
+	height:50px;
+ /*position: absolute;
+	top: 312px;
+	left: 295px;*/
+}
+#gimg{
+	margin-left: 60px;
+}
+#gtitle{
+	display: inline-block;
+	color: #e7c938;
+	font-size: 20px;
+	margin-top: 21px;
+}
+#gline{
+	border: 1px solid gainsboro;
+	width: 30px;
+	margin-left:76px;
+	margin-top: 21px;
+}
+#gtext{
+	color: #e7c938;
+	font-size: 20px;
+	margin-top: 21px;
+}
+
+.gpoint{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #e6c321;
+	margin-left: 695px;
+	
+}
+#gpoint1{
+	padding-top: 110px;
+	padding-left: 58px;
+}
+#gpoint2{
+	padding-top: 132px;
+	padding-left: 146px;
+}
+#gpoint3{
+	padding-top: 91px;
+	padding-left: 150px;
+}
+#gpoint4{
+	padding-top: 132px;
+	padding-left: 105px;
+}
+.gpoint{
+	transition: all 1S;
+}
+#mainGdisc{
+	float: left;
+	margin-left: 7px;
+	margin-top: 144px;
+}
+.gdisc{
+	margin-top: 50px;
+	margin-left: -7px;
+}
+.gdisctic{
+	font-weight: 700;
+color: #e6c321;
+font-size: 22px;
+}
+.gdisc p{
+	font-size: 14px;
+	color: #dddddd;
+	margin-top: 14px;
+}
+#serve{
+	text-align: center;
+}
+#serve a{
+	
+	font-size: 30px;
+	color: #e6c61e;
+	font-weight: 700;
+	text-shadow: 5px 5px 5px #FF0000;
+	
+}
+.hcont p{
+	color: #a09d8f;
+	position: relative;
+	top: 103px;
+	z-index: 2;
+}
+#modalh{
+	width: 1920PX;
+	background: #E6C525;
+	height: 500px;
+	overflow: hidden;
+}
+
+
+
+#hiftem1{
+	background: url(../img/tupian/图层-1.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	top: -23px;
+	height: 153px;
+}
+#hiftem2{
+	background: url(../img/tupian/图层-2.png)no-repeat;
+	width: 206px;
+	position: relative;
+	left: 56px;
+	height: 86px;
+}
+#hiftem3{
+	background: url(../img/tupian/图层-3.png)no-repeat;
+	width: 174px;
+	position: relative;
+	left: 56px;
+	height: 87px;
+}
+
+#hiftem4{
+	background:url(../img/tupian/图层-4.png)no-repeat;
+	width: 181px;
+	position: relative;
+	left: 56px;
+	height: 66px;
+}
+#hiftem5{
+	background: url(../img/tupian/图层-5.png)no-repeat;
+	width: 201px;
+	position: relative;
+	left: 56px;
+	height: 69px;
+}
+#hiftem6{
+	background: url(../img/tupian/图层-6.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 110px;
+}
+#hiftem7{
+	background: url(../img/tupian/图层-7.png)no-repeat;
+	width: 198px;
+	position: relative;
+	left: 56px;
+	height: 60px;
+}
+	
+#hiftem8{
+	background: url(../img/tupian/图层-8.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 61px;
+}
+#hiftem9{
+	background: url(../img/tupian/图层-9.png)no-repeat;
+	width: 170px;
+	position: relative;
+	left: 56px;
+	height: 65px;
+}
+
+#hiftem10{
+	background:url(../img/tupian/图层-10.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 72px;
+}
+
+
+#hiftem11{
+	background: url(../img/tupian/图层-11.png)no-repeat;
+	width: 171px;
+	position: relative;
+	left: 56px;
+	height: 58px;
+
+}
+#hiftem12{
+	background: url(../img/tupian/图层-12.png)no-repeat;
+	width: 187px;
+	position: relative;
+	left: 56px;
+	height: 47px;
+
+}
+
+#hiftem13{
+	background: url(../img/tupian/图层-13.png)no-repeat;
+	width: 173px;
+	position: relative;
+	left: 56px;
+	height: 65px;
+
+}
+
+#hiftem14{
+	background:url(../img/tupian/图层-14.png)no-repeat;
+	width: 171px;
+	position: relative;
+	left: 56px;
+	height: 68px;
+
+}
+#hiftem15{
+	background:url(../img/tupian/图层-15.png)no-repeat;
+	width: 191px;
+	position: relative;
+	left: 56px;
+	height: 75px;
+
+}	
+#hiftem16{
+	background:url(../img/tupian/图层-16.png)no-repeat;
+	width: 190px;
+	position: relative;
+	left: 56px;
+	height: 46px;
+
+}
+
+#hiftem17{
+	background:url(../img/tupian/图层-17.png)no-repeat;
+	width: 200px;
+	position: relative;
+	left: 56px;
+	height: 48px;
+
+}
+
+#hiftem18{
+	background:url(../img/tupian/图层-18.png)no-repeat;
+	width: 176px;
+	position: relative;
+	left: 56px;
+	height: 76px;
+
+}
+
+#hiftem19{
+	background:url(../img/tupian/图层-19.png)no-repeat;
+	width: 186px;
+	position: relative;
+	left: 56px;
+	height: 65px;
+
+}
+#hiftem20{
+	background:url(../img/tupian/图层-20.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 66px;
+
+}
+#hiftem21{
+	background:url(../img/tupian/图层-21.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 85px;
+
+}
+#hiftem22{
+	background:url(../img/tupian/图层-22.png)no-repeat;
+	width: 186px;
+	position: relative;
+	left: 56px;
+	height: 54px;
+	
+
+}
+
+#hiftem23{
+	background:url(../img/tupian/图层-23.png)no-repeat;
+	width: 182px;
+	position: relative;
+	left: 56px;
+	height:58px;
+
+}
+#hiftem24{
+	background:url(../img/tupian/图层-24.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 103px;
+
+}
+#hiftem25{
+	background:url(../img/tupian/图层-25.png)no-repeat;
+	width: 166px;
+	position: relative;
+	left: 56px;
+	height: 54px;
+
+}
+
+#hiftem26{
+	background:url(../img/tupian/图层-26.png)no-repeat;
+	width: 174px;
+	position: relative;
+	left: 56px;
+	height: 84px;
+
+}
+#hflowbox{
+	overflow: hidden;
+	width: 1920px;
+	height: 286px;
+	position: relative;
+	top: 156px;
+	
+}
+#hflow1{
+	width: 9360px;
+	height: 286px;
+	
+}
+
+		
+
+.hiftem{
+	border: 1px solid black;
+	background: white;
+	width: 300px;
+	height: 189px;
+	float: left;
+	border-radius:5px;
+	margin-left: 70px;
+	padding-top: 93px;
+	
+	
+}
+#step{
+	width: 100%;
+	
+	
+	
+}
+#stepTitle {
+	text-align: center;
+}
+#stepTitle a{
+	font-size: 30px;
+	color: #ebd062;
+	text-shadow:  5px 5px 5px #FF0000;
+	
+}
+#stepTu{
+	background: url(../img/tupian/形状-1-副本.png)no-repeat;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	transform: all 1s;
+}
+#stepTu:hover{
+	transform: rotate(180deg);
+}
+#stypMatter{
+	width: 100%;
+	display: none;
+}
+#matterOne{
+	height: 300px;
+	background: #f3f3f3;
+	/*margin-left: -340PX;*/
+	width: 100%;
+
+	
+}
+
+#matterOne li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterOneLeft {
+float: left;
+margin-left: 313px;
+}
+#matterOneLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+}
+#matterOneLeft a:hover{
+
+	background: #E6C320 ;
+}
+#matterOneCenter{
+	float: left;
+	margin-left:185px;
+}
+#matterOneCenter a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+}
+#matterOneCenter a:hover{
+
+	background: #E6C320 ;
+}
+
+#matterOneRight{
+	background:url(../img/tupian/TTTTTT1.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left: 155px;
+	transition: all 1s;
+}
+#matterOneRight:hover{
+	transform: rotate(720deg);
+}
+#matterTwo{
+	height: 300px;
+	background: #fff;
+	margin-left: 322px;
+}
+
+#matterTwo li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterTwoLeft {
+float: left;
+
+
+}
+#matterTwoLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+}
+#matterTwoLeft a:hover{
+
+	background: #E6C320 ;
+}
+
+
+
+#matterTwoRight{
+	background:url(../img/tupian/TTTTTTTTTTT2.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left: 342px;
+	transition: all 1s;
+}
+#matterTwoRight:hover{
+	transform: rotate(720deg);
+}
+#matterThree{
+	height: 300px;
+	background: #f3f3f3;
+	
+}
+
+#matterThree li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterThreeLeft {
+float: left;
+margin-left: 333px;
+}
+#matterThreeLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+}
+#matterThreeLeft a:hover{
+
+	background: #E6C320 ;
+}
+
+
+
+#matterThreeRight{
+	background: url(../img/tupian/TTTTTTTTTT3.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left: 330px;
+	transition: all 1s;
+}
+#matterThreeRight:hover{
+	transform: rotate(720deg);
+}
+#matterFuor{
+	height: 300px;
+	background: #fff;
+	margin-left:339px;
+	
+}
+
+#matterFuor li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterFuorLeft {
+float: left;
+
+}
+#matterFuorLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+	
+}
+#matterFuorLeft a:hover{
+
+	background: #E6C320 ;
+}
+
+
+
+#matterFuorRight{
+	background:url(../img/tupian/TTTTTTTT4.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left:336px;
+	transition: all 1s;
+}
+#matterFuorRight:hover{
+	transform: rotate(720deg);
+}
+#matterFive{
+	height: 300px;
+	background: #f3f3f3;
+
+
+}
+
+#matterFive li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterFiveLeft {
+float: left;
+margin-left: 342px;
+
+}
+#matterFiveLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+}
+#matterFiveLeft a:hover{
+
+	background: #E6C320 ;
+}
+
+
+
+#matterFiveRight{
+	background:url(../img/tupian/TTTTTTTTT5.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left: 437px;
+	transition: all 1s;
+}
+#matterFiveRight:hover{
+	transform: rotate(720deg);
+}
+#matterSix{
+	height: 300px;
+	background: #fff;
+	margin-left: 360px;
+}
+
+#matterSix li{
+	margin-top: 26px;
+	
+	list-style: none;
+	color: #666;
+}
+#matterSixLeft {
+float: left;
+
+}
+#matterSixLeft a{
+	border: 1px solid #E6C320;
+	width:130px;
+	line-height: 32px;
+	display: inline-block;
+	
+	
+}
+#matterSixLeft a:hover{
+
+	background: #E6C320 ;
+}
+
+
+
+#matterSixRight{
+	background:url(../img/tupian/TTTTTTTTT6.png)no-repeat;
+	height: 230px;
+	width: 373px;
+	float: left;
+	margin-left: 289px;
+	transition: all 1s;
+}
+#matterSixRight:hover{
+	transform: rotate(720deg);
+}
+#footer{
+	width: 100%;
+	height: 453px;
+	background: #2b2b2b;
+}
+#footerTop{
+	padding-top: 30px;
+	margin-top: 36px;
+	width: 100%;
+	height: 240px;
+}
+#footerTop ul{
+	list-style: none;
+	
+}
+
+#footerTopLeft{
+	float: left;
+	margin-left:122px;
+}
+#footerTopLeft ul{
+	float: left;
+	
+}
+#footerTopLeft li{
+	font-size: 16px;
+	color: #434343;
+	margin-top: 10px;
+}
+#ruhe{
+	margin-left:50px;
+	margin-top: 28px;
+}
+
+#footerTopCenter{
+	float: left;
+	margin-left: 100px;
+}
+#footerTopCenter ul{
+	float: left;
+}
+#footerTopCenter li{
+	font-size: 16px;
+	color: #434343;
+	margin-top: 10px;
+}
+#lianxi{
+	margin-left: 150px;
+	height: 160px;
+}
+#lianxi li{
+	font-size: 22px;
+	color: #cbcbcb;
+}
+#phoneo{
+	background: url(../img/tupian/tt5.png)no-repeat;
+	width: 36px;
+	height: 35px;
+	margin-left: 151px;
+}
+#chat{
+	background: url(../img/tupian/tt6.png)no-repeat;
+	width: 36px;
+	height: 35px;
+	margin-left: 24px;
+}
+#TopCenterTwo li{
+	float: left;
+}
+#footerTopRight{
+	float: left;
+	margin-left: 65px;
+	margin-top: 45px;
+}
+#footerCenter{
+	margin-left: 122px;
+}
+#footerCenter a{
+	font-size: 16px;
+	color: #434343;
+
+}
+#footerCenter hr{
+	width: 1275px;
+	margin-top: 30px;
+	
+}
+hr{
+	color:#434343 ;
+}
+#footerLast{
+	margin-left:473px;
+	margin-top: 78px;
+}
+#footerLast ul li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	color: #434343;
+	margin-left: 10px;
+}

@@ -1,0 +1,61 @@
+	
+
+#gpointt1{
+	
+	background-color: #E6C322;
+	transition: all 1s;
+	animation: ball1 4s infinite;
+}
+#gpointt2{
+	
+	background-color: #E6C322;
+	transition: all 1s;
+	animation: ball2 4s infinite;
+	animation-delay: 1s;
+}
+#gpointt3{
+   
+	background-color: #E6C322;
+	transition: all 1s;
+	animation: ball3 4s infinite;
+	animation-delay: 2s;
+	}
+	#gpointt4{
+    
+	background-color: #E6C322;
+	transition: all 1s;
+	animation: ball4 4s infinite;
+	animation-delay: 3s;
+	}
+	#gpointt5{
+    
+	transition: all 1s;
+	animation: ball5 4s infinite;
+	animation-delay: 4s;
+	}
+@keyframes ball1{
+	0%{border-radius: 100%;}
+	50%{border-radius: 33%;}
+	100%{border-radius: 0%;}
+}
+@keyframes ball2{
+	0%{border-radius: 100%;}
+	50%{border-radius: 33%;}
+	100%{border-radius: 0%;}
+}
+@keyframes ball3{
+	0%{border-radius: 100%;}
+	50%{border-radius: 33%;}
+	100%{border-radius: 0%;}
+}
+@keyframes ball4{
+	0%{border-radius: 100%;}
+	50%{border-radius: 33%;}
+	100%{border-radius: 0%;}
+}
+@keyframes ball5{
+	0%{border-radius: 100%;}
+	50%{border-radius: 33%;}
+	100%{border-radius: 0%;}
+}
+

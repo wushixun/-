@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		 <link rel="stylesheet" href="dest/css/normalize.css">
+          <link rel="stylesheet" href="dest/css/style.css">
+	</head>
+
+	<body>
+		<div id="appConter">
+			<!--开始头部-->
+			<div id="appHeader">
+				<!--添加log-->
+				<div id="log">
+					<img src="img/tupian/缔优.png" />
+				</div>
+				<!--添加app-->
+				<div id="app">
+					<a href="#">APP定制平台</a>
+				</div>
+				<!--开始导航栏-->
+				<div id="headerNav">
+					<ul>
+						<li>
+							<a href="../homepage.html">首页</a>
+						</li>
+						<li>
+							<a href="../app/app.html">APP定制</a>
+						</li>
+						<li>
+							<a href="../moban/template.html">模板Store</a>
+						</li>
+						<li>
+							<a href="../case1/case1.html">案例</a>
+						</li>
+						<li>
+							<a href="../xiangmu/guanyuwomwn01.html">关于我们</a>
+						</li>
+
+					</ul>
+				</div>
+				<!--登录-->
+				<div id="appEnter">
+					<a href="#">登录</a>
+				</div>
+				<!--注册-->
+				<div id="appEnroll">
+					<a href="#">注册</a>
+				</div>
+			</div>
+			<!--头部结束-->
+			<!--主体部分开始-->
+			<div id="Appmain">
+				<!--添加轮播图-->
+				<div id="appBanner">
+					<div class="wrapper">
+    <header class="header">
+        <div class="full-center">
+            <h1 class="header__heading">circleMagic.js</h1>
+            <h3 class="subscribe">circleMagic.js is a lightweight library for jQuery</h3>
+        </div>
+        <div class="arrow__btn">
+            <img src="dest/img/download.svg" alt="" width="50" height="50" class="btn">
+        </div>
+    </header>
+   <!---->
+   
+
+<!-- Scripts loading -->
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="src/circleMagic.js"></script>
+<script>
+  window.onload = function() {
+    $(".btn").on("click", function (e) {
+      e.preventDefault();
+      var top = window.innerHeight;
+      console.log(top);
+      $('body,html').animate({scrollTop: top + 20}, 1200);
+    });
+
+    $('.header').circleMagic({
+      radius: 35,
+      density: .1,
+      color: 'rgba(255,255,255, .4)',
+      clearOffset: .9
+    });
+  }
+</script>
+				</div>
+				<!--DIU在线管理-->
+				<div id="appManage">
+					<div id="manageTitle">
+						<a>DIU在线沟通管理</a>
+					</div>
+					<div id="manageTu">
+						<img src="img/tupian/002564a5d7d218c8655c5e.png" />
+					</div>
+					<div id="manageText">
+						<ul>
+							<li style="font-size: 22px;font-weight: 600;">一对一在线需求评估</li>
+							<span id="a">
+						
+						<li class="manageTextTwo">从您提交需求的那一刻，将会有资深F的需求分析师通过在线需求评估系统为您提供一对一诊</li>
+						<li class="manageTextTwo">断，让您了解自己的想法转变为APP会有那些工作。</li>
+						</span>
+						</ul>
+						<ul>
+							<li style="font-size: 22px;font-weight: 600;">项目过程视频沟通</li>
+							<span id="b">
+						<li class="manageTextTwo">目视频会议系统让您足不出户就能搞定所有项目沟通，会议记录永久留存；所有文档来往、</li>
+						<li class="manageTextTwo">操作记录随时可查，项目管理过程透明可监管。</li>
+						</span>
+						</ul>
+					</div>
+				</div>
+				<!--3分钟需求描述-->
+				<div id="appNeed">
+					<div id="needTitle">
+						<a>3分钟需求描述</a>
+					</div>
+					<div id="needBox">
+						<form action="" method="post">
+							<div id="searchOne">
+								<input type="text" value="一句话描述自己的需求，例如：O2O" />
+								<a>0/20</a>
+							</div>
+							<div id="searchTwo">
+								<input type="text" name="" id="" value="请选择项目预算范围" />
+								<!--<select>
+								<option>预算</option>
+								<option>10k</option>
+								<option>10k-30k</option>
+								<option>30k-50k</option>
+								<option>50k以上</option>
+							</select>
+-->
+							</div>
+							<div id="time">
+								<div id="timeTitle">
+									<a>项目预计开始时间</a>
+								</div>
+								<div id="timeAxle">
+
+									<div id="alexone">
+										<ul>
+											<li class="time"></li>
+											<li>
+												<a>现在</a>
+											</li>
+										</ul>
+
+									</div>
+									<div id="alextwo">
+										<ul>
+											<li class="time"></li>
+											<li>
+												<a>一周后</a>
+											</li>
+										</ul>
+									</div>
+									<div id="alexthree">
+										<ul>
+											<li class="time"></li>
+											<li>
+												<a>两周后</a>
+											</li>
+										</ul>
+										
+									</div>
+									<div id="alexfour">
+										<ul>
+											<li class="time"></li>
+											<li>
+												<a>一个月后</a>
+											</li>
+										</ul>
+										
+											
+										
+									</div>
+									<div id="alexfive">
+										<ul>
+											<li class="time"></li>
+											<li>
+												<a>两个月后</a>
+											</li>
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+							<div id="liji">
+								<button><a href="#">立即评估</a></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!--app定制是如何一步步实现的-->
+				<div id="appCustom">
+					<div  id="customTitle">
+						<a>APP定制是如何一步步实现的？</a>
+					</div>
+					<div id="customMain">
+						
+					<div class="iteam" id="iteam1">
+						<span id="num">01</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText1">
+							需求预评估
+						</span>
+						<div class="intermIfor">
+							3分钟提交需求，专业顾问与您在线一对一沟通并出具需求预评估报告
+						</div>
+					</div>
+					<div class="iteam" id="iteam2">
+						<span id="num">02</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText2">
+							产品原型设计
+						</span>
+						
+						<div class="intermIfor">
+							资深产品经理为您的需求进行严密的逻辑梳理，绘制可视化线框图原型
+						</div>
+					</div>
+					<div class="iteam" id="iteam3">
+						<span id="num">03</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText3">
+							UI设计
+						</span>
+						<div class="intermIfor">
+							UI设计团队紧随当今流行设计趋势，为您的APP打造出色视觉体验
+						</div>
+					</div>
+					<div class="iteam" id="iteam4">
+						<span id="num">04</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText4">
+							APP端开发
+						</span>
+						<div class="intermIfor">
+							工程师基于APICloud开发平台进行APP端开发，效率更高，性能更稳定
+						</div>
+					</div>
+					<div class="iteam" id="iteam5">
+						<span id="num">05</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText5">
+							服务器端开发
+						</span>
+						<div class="intermIfor">
+							APICloud服务端开发更全面，涵盖云修复、版本更新、数据统计、推送等强大功能
+						</div>
+					</div>
+					<div class="iteam" id="iteam6">
+						<span id="num">06</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText6">
+							接口联调
+						</span>
+						<div class="intermIfor">
+							一套代码生成iOS和Android两个APP，真正让接口联调事半功倍
+						</div>
+					</div>
+					<div class="iteam" id="iteam7">
+						<span id="num">07</span>
+						<span class="rediu">
+							
+						</span>
+						<span id="itemText7">
+							测试及验收
+						</span>
+						<div class="intermIfor">
+							引擎自动适配+海量稳定模块让QA更专注于业务测试，完整递交15项标准化交付产物
+						</div>
+						
+					</div>
+					</div>
+					<!--添加虚线-->
+					<div id="dashed">
+						<ul>
+							<li id="line1"></li>
+							<li id="line2"></li>
+							<li id="line3"></li>
+							<li id="line4"></li>
+							<li id="line5"></li>
+							<li id="line6"></li>
+							<li id="line7"></li>
+						</ul>
+					</div>
+					<div id="customtu">
+						
+					</div>
+				</div>
+				<!--系统-->
+				<div id="system">
+					<ul id="systemOne" style="width: 1920px;height: 128px;margin-top: 97px;">
+						<li><img src="img/tupian/tu1.png"/></li>
+						<li><img src="img/tupian/tu2.png"/></li>
+						<li><img src="img/tupian/tu3.png"/></li>
+						<li><img src="img/tupian/tu4.png"/></li>
+					</ul>
+						<ul id="systemTwo" style="margin-top: 15px;">
+						<li>在线需求评估系统</li>
+						<li>项目系统视频会议</li>
+						<li>项目监管系统</li>
+						<li>项目交付系统</li>
+					</ul>
+					
+				</div>
+			</div>
+			<!--主体部分完成-->
+			<!--底部开始-->
+			<div id="appfooter">
+          	<div id="appfooterTop">
+          		<div id="appfooterTopLeft">
+          			
+          			<ul>
+          				<a style="color: #cbcbcb;font-size: 22px;">常见问题</a>
+          				<li>开发一个APP一般需要多少时间，多少钱？</li>
+          				<li>如何掌握项目进度？</li>
+          				<li>什么类型的App适合缔优订制？</li>
+          				<li>项目交付物的所有权归谁？</li>
+          				<li>自己有网站和微信，还想做一个App能复用吗？》》</li>
+          				
+          			</ul>
+          			<ul id="appruhe">
+          				<li>如何在线快速发布项目需求？</li>
+          				<li>如何免费快速获取项目评估报告？</li>
+          				<li>缔优APP订制包含哪些服务?</li>
+          				<li>如何保障手机APP开发项目输出质量？</li>
+          				<li>更多问题》》</li>
+          				
+          			</ul>	
+          		</div>
+          		<div id="appfooterTopCenter">
+          			<div id="appTopCenterOne">
+          				
+          			
+          			<ul>
+          				<a style="color: #cbcbcb;font-size: 22px;">DIU缔优</a>
+          				<li>关于我们</li>
+          				<li>服务条款</li>
+          				<li>隐私条款</li>
+          				<li>blog</li>
+          				
+          			</ul>
+          			<ul id="lianxi">
+          				<a style="color: #cbcbcb;font-size: 22px;">联系我们</a>
+          				<li>TEL:400-0132-920</li>
+          				<li>E-Mail:app@diyou.com</li>
+          				<li>Web:DUdiyou001</li>
+          				
+          				
+          			</ul>
+          			</div>
+          			<hr />
+          			<div id="appTopCenterTwo">
+          				<ul>
+          					<li>中文简体</li>
+          					<li id="appphoneo"></li>
+          					<li id="appchat"></li>
+          				</ul>
+          			</div>
+          		</div>
+          		<div id="appfooterTopRight">
+          			<img src="img/tupian/掌握最新活动和优惠.png"/>
+          		</div>
+          	</div>
+<div id="appfooterCenter">
+	<a>友情链接</a>
+	<a style="margin-left: 39px;">热门标签</a>
+	<hr />
+</div>
+<div id="appfooterLast">
+	<ul>
+		<li>2014-2017DIU缔优</li>
+		<li>京ICP备14027692</li>
+		<li>京ICP备14027692</li>
+		<li>京公网安备11010502020063</li>
+	</ul>
+</div>
+          </div>
+		</div>
+	</body>
+
+</html>

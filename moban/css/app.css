@@ -1,0 +1,544 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+#appConter{
+	/*margin: 0 auto;*/
+	width:1920px;
+}
+#appHeader{
+	/*background: red;*/
+	width: 1920px;
+	height: 80px;
+
+}
+
+#log{
+	float: left;
+	
+}
+
+#log img{
+	margin-left: 353px;
+	margin-top: 25px;
+}
+#app {
+	width: 102px;
+	line-height: 20px;
+	background: #e6c322;
+	text-align: center;
+	float: left;
+	margin-left: 15px;
+	margin-top: 34px;
+}
+#app a{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+
+}
+#headerNav{
+	float: left;
+	margin-left: 124px;
+	margin-top: 30px;
+}
+#headerNav ul{
+	list-style: none;
+	
+}
+#headerNav ul li{
+	float: left;
+}
+#headerNav a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#333333 ;
+	margin-left: 61px;
+}
+#headerNav a:hover{
+	color: #e9ce45;
+}
+#appEnter{
+/*	border: 1px solid black;*/
+	width: 75px;
+	
+	float: left;
+	margin-left: 123px;
+	margin-top: 26px;
+	text-align: center;
+	line-height: 37px;
+	
+}
+#appEnter a{
+	
+	font-size: 20px;
+	text-decoration: none;
+	color:#c6c6c6 ;
+}
+#appEnter:hover{
+	background: #E6C322;
+}
+#appEnroll{
+	/*border: 1px solid black;*/
+	width: 75px;
+	
+	float: left;
+	margin-left: 26px;
+	margin-top: 26px;
+	text-align: center;
+	line-height: 37px;
+	
+}
+#appEnroll a{
+	font-size: 20px;
+	text-decoration: none;
+	color:#c6c6c6 ;
+}
+#appEnroll:hover{
+	background: #E6C322;
+}
+/*开始主体*/
+#appManage{
+	width: 1920px;
+height: 464px;
+}
+#manageTitle{
+	text-align: center;
+	padding-top: 52px;
+	
+}
+#manageTitle a{
+	font-size: 30px;
+	font-weight: 700px;
+	color: #e8c423;
+	
+}
+#manageTu{
+	float: left;
+	margin-top: 78px;
+	margin-left: 380px;
+}
+#manageText{
+	float: left;
+	margin-top:8px;
+	margin-left: 117px;
+}
+#manageText li{
+	list-style: none;
+}
+#manageText ul{
+	margin-top: 70px;
+}
+.manageTextTwo{
+	color: #808080;
+	font-size: 16px;
+	margin-top: 5px;
+}
+#a{
+margin-top: 26px;
+display: inline-block;	
+}
+#b{
+margin-top: 26px;
+display: inline-block;	
+}
+#appNeed{
+	width: 1920px;
+/*	background: red;*/
+	height: 535px;
+}
+#needTitle{
+	text-align: center;
+	padding-top: 52px;
+	
+}
+#needTitle a{
+	font-size: 30px;
+	font-weight: 700px;
+	color: #e8c423;
+
+}
+#needBox{
+	width: 1920px;
+
+	
+}
+#searchOne{
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	line-height: 48px;
+	width: 1064px;
+	margin-left: 401px;
+	margin-top: 52px;
+}
+#searchOne input{
+	width: 900px;
+	margin-left: 10px;
+	color: #dadada;
+	border: 0;
+	outline: medium;
+}
+#searchOne a{
+	float: right;
+	margin-right: 25px;
+}
+#searchTwo{
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	line-height: 48px;
+	width: 1064px;
+	margin-left: 401px;
+	margin-top: 29px;
+}
+#searchTwo input{
+	width: 900px;
+	color: #dadada;
+	border: 0;
+	outline: medium;
+}
+/*select{
+	border: 1px solid black;
+	width: ;
+}*/
+#time{
+	margin-left: 401px;
+	margin-top: 30px;
+}
+#timeTitle a{
+	font-size: 22px;
+}
+#timeAxle{
+	background: url(../img/tupian/tu5.png)no-repeat;
+	width: 1920px;
+	height: 34px;
+	margin-top: 30px;
+}
+.time{
+	border-radius: 100%;
+	border: 1px solid black;
+	width: 10px;
+	height: 10px;
+}
+#timeAxle ul{
+	float: left;
+	list-style: none;
+	width: 252px;
+	
+}
+#liji{
+	position: relative;
+	top: 80px;
+	border: 1px solid #e9cc49;
+	border-radius: 5px;
+	width: 200px;
+	margin: 0 auto;
+background: white;
+}
+#liji:hover{
+	background:#e9cc49 ;
+}
+button{
+	width: 200px;
+	height: 50px;
+	color:#e9cc49;
+	font-size: 20px;
+	border: 0;
+	background: white;
+	
+}
+button a{
+	color:#e9cc49;
+}
+button a:hover{
+	color: white;
+} 
+button:hover{
+	background:#e9cc49 ;
+}
+#alexone{
+	position: relative;
+	left: 10px;
+}
+#alexfour{
+	position: relative;
+	left: 14px;
+}
+#alexfive{
+	position: relative;
+	left: 26px;
+}
+#timeAxle li{
+	margin-top: 3px;
+}
+#customTitle{
+	text-align: center;
+}
+#customTitle a{
+	font-size: 30px;
+	color: #e9cc49;
+}
+#customMain{
+	width: 1920px;
+	height: 128px;
+}
+.rediu{
+	border: 1px solid #e9cc49;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+.iteam{
+	float: left;
+	
+}
+.intermIfor{
+	width: 200px;
+	border:1px solid #f3f5fc;
+	
+	
+	background:red;
+	height: 104px;
+}
+#dashed li{
+	border-left: 1px dashed black;
+	
+	width: 1px;
+	display: inline-block;
+	clear: both;
+	margin-left: 231px;
+	
+}
+#customtu{
+	background: url(../img/tupian/tu6.png)no-repeat;
+	height: 253px;
+	width: 1920px;
+	z-index: 2;
+	
+}
+#line1{
+	position: relative;
+	top: 170px;
+	left: 246px;
+	z-index: -4;
+	height: 300px;
+}
+#line2{
+	position: relative;
+	top: 165px;
+	left: 193px;
+	z-index: -4;
+	height: 150px;
+}
+#line3{
+	position: relative;
+	top: 179px;
+	left: 104px;
+	z-index: -4;
+	height: 400px;
+}
+#line4{
+	position: relative;
+	top: 179px;
+	left: 24px;
+	z-index: -4;
+	height: 300px;
+}
+#line5{
+	position: relative;
+	top: 241px;
+	left: -50px;
+	z-index: -4;
+	height: 300px;
+}
+#line6{
+	position: relative;
+	top: 179px;
+	left: -124px;
+	z-index: -4;
+	height: 300px;
+}
+#line7{
+	position: relative;
+	top: 205px;
+	left: -178px;
+	z-index: -4;
+	height: 400px;
+}
+.intermIfor{
+	display: none;*/
+	margin-top: -126px;
+}
+#iteam1:hover .intermIfor{
+	display: block;
+}
+#iteam1{
+	position:relative ;
+	left: 448px;
+	top: 379px;
+	
+}
+#iteam2{
+	position:relative ;
+	left: 511px;
+	top: 524px;
+	
+}
+#iteam3{
+	position:relative ;
+	left: 376px;
+	top: 288px;
+	
+}
+#iteam4{
+	position:relative ;
+	left: 332px;
+	top: 387px;
+	
+}
+#iteam5{
+	position:relative ;
+	left: 291px;
+	top: 452px;
+	
+}
+#iteam6{
+	position:relative ;
+	left: 255px;
+	top: 433px;
+	
+}
+#iteam7{
+	position:relative ;
+	left: 237px;
+	top: 314px;
+	
+}
+#system{
+	margin-left: 227px;
+}
+#systemOne li{
+	float: left;
+	width: 128px;
+	height: 128px;
+	list-style: none;
+	margin-left: 187px;
+}
+#systemTwo li{
+	float: left;
+	width: 120px;
+	height: 20px;
+	font-size: 12px;
+	list-style: none;
+	color: darkgray;
+	margin-left: 197px;
+}
+/*底部*/
+#appfooter{
+	width: 1920px;
+	height: 400px;
+	background: #2b2b2b;
+}
+#appfooterTop{
+	padding-top: 30px;
+	margin-top: 36px;
+	width: 1920px;
+	height: 240px;
+}
+#appfooterTop ul{
+	list-style: none;
+	
+}
+
+#appfooterTopLeft{
+	float: left;
+	margin-left:245px;
+}
+#appfooterTopLeft ul{
+	float: left;
+	
+}
+#appfooterTopLeft li{
+	font-size: 16px;
+	color: #434343;
+	margin-top: 10px;
+}
+#appruhe{
+	margin-left:50px;
+	margin-top: 28px;
+}
+
+#appfooterTopCenter{
+	float: left;
+	margin-left: 100px;
+}
+#appfooterTopCenter ul{
+	float: left;
+}
+#appfooterTopCenter li{
+	font-size: 16px;
+	color: #434343;
+	margin-top: 10px;
+}
+#applianxi{
+	margin-left: 150px;
+	height: 160px;
+}
+#applianxi li{
+	font-size: 22px;
+	color: #cbcbcb;
+}
+#appphoneo{
+	background: url(../img/tupian/tt5.png)no-repeat;
+	width: 36px;
+	height: 35px;
+	margin-left: 151px;
+}
+#appchat{
+	background: url(../img/tupian/tt6.png)no-repeat;
+	width: 36px;
+	height: 35px;
+	margin-left: 24px;
+}
+#appTopCenterTwo li{
+	float: left;
+}
+#appfooterTopRight{
+	float: left;
+	margin-left: 65px;
+	margin-top: 45px;
+}
+#appfooterCenter{
+	margin-left: 244px;
+}
+#appfooterCenter a{
+	font-size: 16px;
+	color: #434343;
+
+}
+#appfooterCenter hr{
+	width: 1275px;
+	margin-top: 30px;
+	
+}
+hr{
+	color:#434343 ;
+}
+#appfooterLast{
+	margin-left:473px;
+	margin-top: 78px;
+}
+#appfooterLast ul li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	color: #434343;
+	margin-left: 10px;
+}
